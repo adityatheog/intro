@@ -1,1 +1,1 @@
-adityatheog.github.io/intro
+https://adityatheog.github.io/intro
