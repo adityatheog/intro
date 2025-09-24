@@ -11,13 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Unzip intro.zip
-        run: unzip intro.zip -d intro_unzipped
+      - name: Unzip intro.zip to root
+        run: unzip -o intro.zip -d .
 
       - name: Commit unzipped files
         run: |
           git config --local user.name "GitHub Action"
           git config --local user.email "action@github.com"
-          git add intro_unzipped
-          git commit -m "Unzipped intro.zip" || echo "Nothing to commit"
+          git add .
+          git commit -m "Unzipped intro.zip to root" || echo "Nothing to commit"
           git push
