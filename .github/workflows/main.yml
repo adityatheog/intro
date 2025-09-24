@@ -1,0 +1,23 @@
+name: Unzip intro.zip
+
+on:
+  push:
+    paths:
+      - 'intro.zip'
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Unzip intro.zip
+        run: unzip intro.zip -d intro_unzipped
+
+      - name: Commit unzipped files
+        run: |
+          git config --local user.name "GitHub Action"
+          git config --local user.email "action@github.com"
+          git add intro_unzipped
+          git commit -m "Unzipped intro.zip" || echo "Nothing to commit"
+          git push
