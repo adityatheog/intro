@@ -18,9 +18,9 @@ const SITE_CONFIG = {
     // Social links
     socialLinks: {
         github: "https://github.com/adityatheog",
-        instragram : "https://instagram.com/_adityatheog",
+        instragram : "https://instagram.com/adityasutar.xyz",
         youtube: "https://www.youtube.com/@ADiTYaTheOG_YouTube",
-        discord: "https://discord.gg/c7QpxGtZMk",
+        discord: "https://discordapp.com/channels/@me/1046424379891908688/",
         telegram: "https://t.me/adityatheog"
     },
     
