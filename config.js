@@ -4,7 +4,7 @@
 const SITE_CONFIG = {
     // Personal information
     title: "Aditya",
-    citation: "Wake up to reality.",
+    citation: "Let's make something, then think about it.",
     
     // Main colors (hexadecimal format)
     colors: {
@@ -18,7 +18,7 @@ const SITE_CONFIG = {
     // Social links
     socialLinks: {
         github: "https://github.com/adityatheog",
-        instragram : "https://instagram.com/adityasutar.xyz",
+        instragram : "https://instagram.com/4d1ty4.in",
         youtube: "https://www.youtube.com/@ADiTYaTheOG_YouTube",
         discord: "https://discord.com/users/1046424379891908688",
         telegram: "https://t.me/adityatheog"
